@@ -1,0 +1,65 @@
+*,body{
+padding: 0;
+margin: 0;
+background-color: #FFEDD8;
+}
+
+.header-container {
+padding: 1rem;
+background: rgb(36,10,52);
+border-bottom: 2px solid #fff;
+
+}
+.header-container > h1{
+    text-align: center;
+    background-color: #0000;
+    color:#FFEDD8;
+}
+.todo-container{
+    padding: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.todo-form-container{
+    padding-top: 1rem;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.todo-form-container > h2{ 
+    padding:1rem;
+    color:rgb(36,10,52);
+}
+.todo-form-container > form:focus-within{
+    outline: 1px solid #891652;
+}
+.todo-form-container > form{
+    display: flex;
+    width: 100%;
+}
+.todo-form-container > form > input{
+    width: 100%;
+    border:none;
+    background-color: #EABE6C;
+    height: 30px;
+    padding: 5px;
+    color:rgb(36,10,52);
+    
+}
+.todo-form-container > form > input::placeholder{
+    color:#fff;
+    outline: none;
+}
+.todo-form-container > form > button{
+    border:none;
+    background-color: #891652;
+    color: #fff;
+    padding: 5px 20px;
+}
+.todo-form-container > form > input:focus-within{
+    outline: none;
+}
